@@ -112,45 +112,6 @@ function App() {
     setTodoItems(newTodos);
   };
 
-  // const editTitleHandler = (e, target) => {
-  //   editForm.map((item) =>
-  //     item.id === target.id ? { ...item, title: e.target.value } : item
-  //   );
-  // };
-
-  // const editContentHandler = (e, target) => {
-  //   editForm.map((item) =>
-  //     item.id === target.id ? { ...item, content: e.target.value } : item
-  //   );
-  // };
-
-  // const showEditInput = (target) => {
-  //   const showEdit = todoItems.map((item) =>
-  //     item.id === target.id ? { ...item, edit: !item.edit } : item
-  //   );
-  //   const getCurrentCard = (target)
-
-  //   setCurrentEditTitle(target.title);
-  //   setCurrentEditContent(target.content);
-
-  //   setTodoItems(showEdit);
-  // };
-
-  // const saveChangeHandler = (target) => {
-  //   const todoId = target.id;
-  //   const targetIndex = todoItems.findIndex((item) => item.id === todoId);
-  //   const newTodos = [...todoItems];
-  //   newTodos.splice(targetIndex, 1, {
-  //     id: todoId,
-  //     title: currentEditTitle,
-  //     content: currentEditContent,
-  //     isDone: target.isDone,
-  //     edit: false,
-  //   });
-
-  //   setTodoItems(newTodos);
-  // };
-
   return (
     <div className="web">
       <div className="app-style">
