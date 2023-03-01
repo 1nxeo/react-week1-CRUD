@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.web{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.app-style{
+  max-width: 1200px;
+  min-width: 800px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  margin: 15px auto;
+}
+
+h3{
+  margin: 15px auto;
+}
+
+header{
+  height: 50px;
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+header>div{
+  margin : 10px;
+}
+
+header>span{
+  text-align: end;
+  margin :10px
+}
+
+.input-form{
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.input-form > section {
+  margin: 10px;
+}
+
+.todolist{
+  border: 1px solid;
+  padding: 10px
+}
+
+.list-box{
+  width: 250px;
+  height: 150px;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
 }
